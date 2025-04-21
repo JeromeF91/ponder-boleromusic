@@ -12,4 +12,6 @@ ponder.on("PrimaryMarketV2:BuyFromListing", async ({ event, context }) => {
     amount: event.args.amount,
     
   });
+
+
 });
