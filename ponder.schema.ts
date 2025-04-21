@@ -1,4 +1,4 @@
-import { onchainTable } from "ponder";
+import { onchainEnum, onchainTable, primaryKey } from "ponder";
 
 export const buy = onchainTable("buyFromListings", (t) => ({
   id: t.text().primaryKey(),
