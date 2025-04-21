@@ -7,10 +7,6 @@ export default createConfig({
   networks: {
     matic: { chainId: 137, transport: http(process.env.PONDER_RPC_URL_137) },
   },
-  database: {
-    kind: "postgres",
-    connectionString: "postgresql://user:pass@servername:5432/DB",
-  },
   contracts: {
     PrimaryMarketV2: {
       network: "matic",
