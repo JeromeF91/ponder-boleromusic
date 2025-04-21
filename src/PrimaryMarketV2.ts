@@ -1,5 +1,7 @@
 import { ponder } from "ponder:registry";
 
+import schema from "ponder:schema";
+
 ponder.on("PrimaryMarketV2:BuyFromListing", async ({ event, context }) => {
   //console.log(event.args);
 
